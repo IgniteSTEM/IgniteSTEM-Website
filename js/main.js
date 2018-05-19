@@ -29,11 +29,11 @@ function main() {
     /*==================================== Show Menu on Book ======================================*/
     var transitionCuttoff = {
       "/": $(window).height() - 100,
-      "/photos/": 300
+      "/photos/": 200
     }
     $(window).bind('scroll', function() {
         const pathName = window.location.pathname;
-        var navHeight = transitionCuttoff[pathName] != null ? transitionCuttoff[pathName] : $(window).height() - 100;
+        var navHeight = transitionCuttoff[pathName] != null ? transitionCuttoff[pathName] : 300;
         if ($(window).scrollTop() > navHeight) {
             $('.navbar-default').addClass('on');
         } else {

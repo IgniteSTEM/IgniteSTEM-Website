@@ -3,23 +3,43 @@ layout: default_banner
 title: "Testimonials - IgniteSTEM"
 banner: "../assets/images/banners/attendees.jpg"
 ---
+<script src="../../../libraries/TheaterJS-2.0.1/dist/theater.min.js"></script> <!-- TheaterJS -->
+
+<!-- Custom Font -->
+<link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+  <h1 class="page-heading">Testimonials</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+  <div class="testimonials-quote-box">
+      <p class="testimonials-quote" id="action-text">create</p>
+  </div>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <!-- Blog -->
+  <div class="testimonials-blog">
+      <ul class="post-list">
+        {% for post in site.posts %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+            <h2>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h2>
+
+            <span class="page-description">{{ post.description }}</span>
+          </li>
+        {% endfor %}
+      </ul>
+
+      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  </div>
+
+  <!-- Right side widgets -->
+  <div class="testimonials-twitter">
+      <a class="twitter-timeline" data-lang="en" data-height="800" href="https://twitter.com/ignite_stem?ref_src=twsrc%5Etfw">Tweets by ignite_stem</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
 
 </div>
+
+<script src="./script.js"></script>

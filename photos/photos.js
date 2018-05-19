@@ -6,12 +6,12 @@ var gridData = {
   data: []
 }
 
-for (var i = 0; i < imageData.length; i++) {
-    var currentImage = imageData[i];
+for (var i = 0; i < albumData.length; i++) {
+    var currentImage = albumData[i];
 
     var gridItem = {
-        image: '../assets/images/gallery/' + currentImage,
-        link: '../assets/images/gallery/' + currentImage,
+        image: currentImage['image'],
+        link: currentImage['id'],
         size: "1",
     }
 

@@ -72,10 +72,10 @@
  * Page content
  */
 .page-banner {
-   width: 100%;
-   height: 300px;
-   background-position: center;
-   background-size: cover;
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
 }
 
 .page-content {
@@ -83,11 +83,17 @@
 }
 
 .page-content-full {
-  padding: none;
+    padding: none;
 }
 
 .page-heading {
     font-size: 20px;
+}
+
+.page-description {
+    text-align: center;
+    font-size: 14px;
+    margin-bottom: 18px;
 }
 
 .post-list {

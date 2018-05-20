@@ -3,9 +3,10 @@ var theater = theaterJS({ local: 'fr' })
 theater.addActor('action-text', { speed: 0.95, accuracy: 0.9 });
 
 const quotes = [
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur nulla a dolor tempor volutpat. Suspendisse rhoncus viverra risus, nec congue ipsum hendrerit a.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur nulla a dolor tempor volutpat. Suspendisse rhoncus viverra risus, nec congue ipsum hendrerit a.',
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur nulla a dolor tempor volutpat. Suspendisse rhoncus viverra risus, nec congue ipsum hendrerit a.'
+    "A great experience always to be surrounded by educators and different backgrounds.",
+    "Attending January’s IgniteSTEM at Princeton University was a game changer for me.",
+    "This was a great conference! It has opened up many ideas/discussions to include in the classroom",
+    "All of you do an amazing job! I was impressed with all of you at Princeton University in Jan. and even more with IgniteSTEM NY! Kudos to all of you",
 ];
 
 // Generate scene
@@ -16,16 +17,12 @@ theater.addScene(theater.replay.bind(theater));
 
 const testimonials = [
     "Being able to hear about the innovations by the staff members and speakers were invaluable in seeing STEM being implemented in a variety of ways for all students. This ignited STEM in my thinking and mindset.",
-    "Attending January’s IgniteSTEM at Princeton University was a game changer for me.",
+    "It was such an awesome conference and you had the opportunity to network with the presenters along with the attendees. I walked away feeling inspired to bring these ideas to my school district",
     "Having attended the IgniteSTEM conference in April 2017, I learned about hackathons from MLH speakers and a student organizer from Union County VoTech schools. I used this information to solicit additional information and resources from both MLH and HackUC to plan and implement the inaugural Tri-District Hackathon we have scheduled for June 2, 2018, at Liberty Science Center in jersey City, NJ.",
     "I think that IgniteSTEM, as a group/organization is absolutely phenomenal. I have been singing your praises since my return to all who will listen, and have presented to faculty and administrators about the content of the conference, citing how extraordinary you are as a student led-and-run group. Well done!",
     "You guys have always done an awesome job of bringing together high quality, passionate, and motivated STEM individuals. I can honestly say that IgniteSTEM has been the most beneficial conferences I have been to in my 4 years teaching.",
     "This is an exemplary program. All organizers should be proud of their vision, time, and efforts. Kudos!",
     "The conference was a great experience and it had great content. The event was well executed and well communicated. I only wish I had learned about IgniteSTEM sooner. Thank you!",
-    "ultimately a great experience always to be surrounded by educators and different backgrounds.",
-    "This was a great conference! It has opened up many ideas/discussions to include in the classroom",
-    "All of you do an amazing job! I was impressed with all of you at Princeton University in Jan. and even more with IgniteSTEM NY! Kudos to all of you",
-    "It was such an awesome conference and you had the opportunity to network with the presenters along with the attendees. I walked away feeling inspired to bring these ideas to my school district",
     "Fantastic keynote speakers with an encouraging and motivating message. People who attended the conference were all like minded...either have a deep seated passion for STEM or who are seeking insight and motivation to take the leap",
 ]
 
@@ -68,6 +65,6 @@ $(document).ready(function() {
     // Set the carousel options
     $('#quote-carousel').carousel({
         pauseOnHover: true,
-        interval: 3000,
+        interval: 4000,
     });
 });

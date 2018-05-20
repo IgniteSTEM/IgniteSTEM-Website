@@ -8,16 +8,41 @@ banner: "../assets/images/banners/attendees.jpg"
 <!-- Custom Font -->
 <link href="https://fonts.googleapis.com/css?family=Nothing+You+Could+Do" rel="stylesheet">
 
-<div class="home">
+<h1 class="testimonials-heading">Testimonials</h1>
 
-  <h1 class="page-heading">Testimonials</h1>
+<!-- Quote Carousel -->
+<!-- https://codepen.io/vegancore/pen/rHzmh -->
+<div class="container">
+  <div class='row'>
+    <!-- <div class='col-md-offset-2 col-md-8'> -->
+    <div>
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol id="carousel-indicators" class="carousel-indicators">
+            <!-- Populate via script -->
+        </ol>
 
-  <div class="testimonials-quote-box">
-      <p class="testimonials-quote" id="action-text">create</p>
+        <!-- Carousel Slides / Quotes -->
+        <div id="carousel-inner" class="carousel-inner">
+            <!-- Populate via script -->
+        </div>
+
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><i class="fa fa-chevron-left"></i></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><i class="fa fa-chevron-right"></i></a>
+      </div>
+    </div>
   </div>
+</div>
 
-  <!-- Blog -->
-  <div class="testimonials-blog">
+<br>
+<hr>
+<br>
+
+<!-- Container -->
+<div  class="testimonials-main">
+    <!-- Blog -->
+    <div class="testimonials-blog">
       <ul class="post-list">
         {% for post in site.posts %}
           <li>
@@ -33,13 +58,17 @@ banner: "../assets/images/banners/attendees.jpg"
       </ul>
 
       <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-  </div>
+    </div>
 
-  <!-- Right side widgets -->
-  <div class="testimonials-twitter">
-      <a class="twitter-timeline" data-lang="en" data-height="800" href="https://twitter.com/ignite_stem?ref_src=twsrc%5Etfw">Tweets by ignite_stem</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-  </div>
+    <!-- Right side widgets -->
+    <div class="testimonials-twitter">
+      <a class="twitter-timeline" data-lang="en" data-height="500" href="https://twitter.com/ignite_stem?ref_src=twsrc%5Etfw">Tweets by ignite_stem</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    </div>
+</div>
 
+<h2 class="testimonials-quote-heading">Quotes</h2>
+<div class="testimonials-quote-box">
+    <p class="testimonials-quote" id="action-text">Some Quote</p>
 </div>
 
 <script src="./script.js"></script>

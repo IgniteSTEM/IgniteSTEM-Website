@@ -53,7 +53,7 @@ resourcesData = [
     {
         name: "Chi Nguyen",
         subtitle: "Project Manager at Major League Hacking",
-        slug: "https://www.dropbox.com/s/u53dp9y8zc80zip/chinguyen.pdf?dl=0",
+        slug: "https://drive.google.com/file/d/1Ds622iBeiOsgXLuHkzrgYEQDy6kuy7zk/view",
         image: "https://hackcon.mlh.io/img/talks/faces/chi-nguyen.jpg",
         category: categories[ "Speaker" ].name,
         categoryColor: categories[ "Speaker" ].color,
@@ -62,7 +62,7 @@ resourcesData = [
     {
         name: "Rafe Steinhauer",
         subtitle: "Princeton Design Thinking",
-        slug: "https://www.dropbox.com/s/22sucvy0fw2fgm7/rafesteinhauer.pdf?dl=0",
+        slug: "https://drive.google.com/file/d/0BxdtRPa7zgRpTlhleHFWb1p5WlRTUlVyTkpOcEFjNXl4U3Rr/view?usp=sharing",
         image: "https://news.virginia.edu/sites/default/files/styles/uva_basic_article/public/article_image/Steinhauer_Rafe_by_JohnRhea.JPG?itok=o3ywvM7y",
         category: categories[ "Speaker" ].name,
         categoryColor: categories[ "Speaker" ].color,
@@ -71,7 +71,7 @@ resourcesData = [
     {
         name: "Ayna Agarwal",
         subtitle: "Co-Founder of She++",
-        slug: "https://www.dropbox.com/s/tz2tl545fij4nrd/ayna_agarwal_isx.pdf?dl=0",
+        slug: "https://drive.google.com/file/d/0BxdtRPa7zgRpR0NLNU1QQ0doTGNjY2FuNlFSUkNPZXpmOFM0/view?usp=sharing",
         image: "https://cdn-images-1.medium.com/max/640/1*3MdRbAxQHiDBpxpU5Ks4wA.jpeg",
         category: categories[ "Speaker" ].name,
         categoryColor: categories[ "Speaker" ].color,
@@ -80,7 +80,7 @@ resourcesData = [
     {
         name: "Jason Park",
         subtitle: "Princeton Day School STEAM",
-        slug: "https://www.dropbox.com/s/apv7kl2o3mto2xq/Jasonparkslides.pptx?dl=0",
+        slug: "https://drive.google.com/file/d/0BxdtRPa7zgRpOXhDU0liSzBreThHOEVyZGtQcEFuSzJGNGtB/view?usp=sharing",
         image: "https://www.pds.org/uploaded/faculty/Large_Photos/Jason_Park_5791.JPG",
         category: categories[ "Speaker" ].name,
         categoryColor: categories[ "Speaker" ].color,

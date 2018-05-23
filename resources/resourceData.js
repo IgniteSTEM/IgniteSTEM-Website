@@ -17,7 +17,7 @@ resourcesData = [
     {
         name: "Opening Keynote NY 2018",
         subtitle: "Pat Yongpradit",
-        slug: "http://bit.ly/ignitecode",
+        slug: "https://www.youtube.com/watch?v=UlW6notD24o",
         image: "https://pbs.twimg.com/media/DarW6aAXkAMsQ_E.jpg",
         category: categories[ "Keynote" ].name,
         categoryColor: categories[ "Keynote" ].color,

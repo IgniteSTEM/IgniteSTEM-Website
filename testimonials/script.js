@@ -39,7 +39,7 @@ function createElementFromHTML(htmlString) {
 $(document).ready(function() {
     // Inject the other testimonails
     for (let i = 0; i < testimonials.length; i++) {
-        const imageSource = "../assets/images/igniteSTEMLogo.png";
+        const imageSource = "../assets/images/issticker.png";
         const author = "Attendee";
         const testimonial = testimonials[i];
 
@@ -65,6 +65,6 @@ $(document).ready(function() {
     // Set the carousel options
     $('#quote-carousel').carousel({
         pauseOnHover: true,
-        interval: 4000,
+        interval: 40000,
     });
 });

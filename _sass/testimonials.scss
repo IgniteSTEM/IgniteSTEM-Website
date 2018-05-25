@@ -11,6 +11,11 @@ $widget-width: 300px;
         width: 100%;
     }
 
+    &-submission {
+        text-align: center;
+        margin: 30px;
+    }
+
     &-quote {
         &-heading {
             margin: 24px;

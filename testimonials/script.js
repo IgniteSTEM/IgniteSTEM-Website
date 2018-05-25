@@ -46,7 +46,7 @@ $(document).ready(function() {
         const activeClass = (i == 0) ? "active" : "";
         var innerHTML = `<div class='item ${activeClass}'><blockquote><div class='row'>`;
         innerHTML += "<div class='col-sm-3 text-center'>";
-        innerHTML += `<img class="img-circle" src="${imageSource}" style="width: 100px;height:100px;">`; // Image
+        innerHTML += `<img class="img-circle testimonials-sticker" src="${imageSource}">`; // Image
         innerHTML += "</div><div class='col-sm-9'>";
         innerHTML += `<p>${testimonial}</p>`; // Quote
         innerHTML += `<small>${author}</small>`; // Author

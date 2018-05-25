@@ -16,6 +16,11 @@ $widget-width: 300px;
         margin: 30px;
     }
 
+    &-sticker  {
+        width: 100px !important;
+        max-height: 85px;
+    }
+
     &-quote {
         &-heading {
             margin: 24px;
